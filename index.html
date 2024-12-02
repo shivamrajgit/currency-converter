@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter by Shivam Raj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-area">
+        <div class="form-container">
+            <h1>Currency Converter</h1>
+            <form>
+                <label>Enter value :</label>
+                <input type="number">
+                <div class="convertion">
+                    <div class="from">
+                        <label>From:</label>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                            <select name="from">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="swap-btn">
+                        <button class="swap">
+                            <ion-icon name="swap-horizontal-outline"></ion-icon>
+                        </button>
+                    </div>
+                    <div class="to">
+                        <label>To:</label>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                            <select name="to">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <h3></h3>
+                <button class="convert">CONVERT!</button>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

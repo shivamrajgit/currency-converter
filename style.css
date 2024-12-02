@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: skyblue;
+}
+
+.form-container{
+    background-color: white;
+    padding: 2rem ;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+
+form input,select,button{
+    width: 100%;
+    outline: none;
+    border-radius: 1rem;
+    border: none;
+}
+
+form input{
+    width: 96.5%;
+    border: solid;
+    padding: 0.5rem 0 0.5rem 1rem;
+    margin: 0.5rem 0 1rem 0;
+    border-width: 2px;
+}
+
+.convertion{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1 rem 0;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 1px;
+    border: solid;
+    border-width: 2px;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.select-container img{
+    width: 1.5rem;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+.convert{
+    padding: 0.7rem;
+    border: solid;
+    color: white;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    background-color: black;
+}
+
+h3{
+    margin: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.swap{
+    background-color: black;
+    margin: 10px 1rem 0 1rem;
+    padding: 8px 7px 3px 7px;
+}
+
+ion-icon {
+    color: white;
+    font-size: 16px;
+}
+
+.swap-btn{
+    display: flex;
+    align-items: center;
+}
